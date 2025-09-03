@@ -1,4 +1,1 @@
-from .base import Session   
-from .author import Author
-from .book import Book
-from .genre import Genre
+from lib.db.models import Base, Author, Book, Genre

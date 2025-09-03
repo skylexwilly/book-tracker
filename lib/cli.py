@@ -1,5 +1,6 @@
-from .models import Session, Author, Book, Genre
- 
+from lib.models import Author, Book, Genre
+from lib.db.session import Session
+
 
 session = Session()
 

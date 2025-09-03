@@ -1,0 +1,10 @@
+# Ignore SQLite database
+book_tracker.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.env
+.venv/
